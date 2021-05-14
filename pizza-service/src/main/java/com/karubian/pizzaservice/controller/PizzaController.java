@@ -30,4 +30,11 @@ public class PizzaController {
         //todo impl
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
+
+    @DeleteMapping("/{pizzaId}")
+    public ResponseEntity deletePizzaById(@PathVariable("pizzaId") UUID pizzaId)
+    {
+        //todo impl
+        return new ResponseEntity(HttpStatus.NO_CONTENT);
+    }
 }
